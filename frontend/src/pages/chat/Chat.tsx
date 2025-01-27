@@ -934,7 +934,7 @@ const Chat = () => {
               </Stack>
               <QuestionInput
                 clearOnSend
-                placeholder="Type a new question..."
+                placeholder="Take a moment to complete a quick check-in with me. It's simple, secure and will help me to ensure you receive support tailored to your needs. Type here..."
                 disabled={isLoading}
                 onSend={(question, id) => {
                   appStateContext?.state.isCosmosDBAvailable?.cosmosDB

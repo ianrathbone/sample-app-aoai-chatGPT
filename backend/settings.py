@@ -44,8 +44,8 @@ class _UiSettings(BaseSettings):
     title: str = "Care"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "Welcome"
-    chat_description: str = "How can we help?"
+    chat_title: str = "I'm Sava AI"
+    chat_description: str = "Here to ensure you get the support you need, when you need it."
     favicon: str = "/favicon.ico"
     show_share_button: bool = False
     show_chat_history_button: bool = True

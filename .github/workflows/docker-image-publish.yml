@@ -1,9 +1,5 @@
 name: Docker Image Publish
 
-on:
-  push:
-    branches:
-    - main
 
 jobs:
 

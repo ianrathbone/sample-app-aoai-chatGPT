@@ -792,8 +792,9 @@ const Chat = () => {
             {!messages || messages.length < 1 ? (
               <Stack className={styles.chatEmptyState}>
                 <img src={logo} className={styles.chatIcon} aria-hidden="true" />
-                <h1 className={styles.chatEmptyStateTitle}>{ui?.chat_title}</h1>
-                <h2 className={styles.chatEmptyStateSubtitle}>{ui?.chat_description}</h2>
+                <h1 className={styles.chatEmptyStateTitle}>I'm Sava AI</h1>
+                <h2 className={styles.chatEmptyStateSubtitle}>Here to ensure you get the support you need, when you need it.</h2>
+                <h2 className={styles.chatEmptyStateSubtitle}>Take a moment to complete a quick check-in with me. It's simple, secure and will help me to ensure you receive support tailored to your needs.</h2>
               </Stack>
             ) : (
               <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? '40px' : '0px' }} role="log">

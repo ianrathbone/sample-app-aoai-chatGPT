@@ -5,3 +5,7 @@ frontend/node_modules
 .azure/
 __pycache__/
 .ipynb_checkpoints/
+/.vs/sample-app-aoai-chatGPT/CopilotIndices/17.12.38.29086
+/.vs/sample-app-aoai-chatGPT/FileContentIndex
+/.vs/sample-app-aoai-chatGPT/v17
+/.vs

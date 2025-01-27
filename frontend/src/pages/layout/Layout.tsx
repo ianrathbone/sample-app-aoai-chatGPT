@@ -80,7 +80,7 @@ const Layout = () => {
           <Stack horizontal verticalAlign="center">
             <img src={logo} className={styles.headerIcon} aria-hidden="true" alt="" />
             <Link to="/" className={styles.headerTitleContainer}>
-              <h1 className={styles.headerTitle}>{ui?.title}</h1>
+              <h1 className={styles.headerTitle}></h1>
             </Link>
           </Stack>
           <Stack horizontal tokens={{ childrenGap: 4 }} className={styles.shareButtonContainer}>
@@ -90,7 +90,6 @@ const Layout = () => {
                 text={appStateContext?.state?.isChatHistoryOpen ? hideHistoryLabel : showHistoryLabel}
               />
             )}
-            {ui?.show_share_button && <ShareButton onClick={handleShareClick} text={shareLabel} />}
           </Stack>
         </Stack>
       </header>

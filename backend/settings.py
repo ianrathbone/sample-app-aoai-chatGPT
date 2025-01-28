@@ -48,7 +48,7 @@ class _UiSettings(BaseSettings):
     chat_description: str = "Here to ensure you get the support you need, when you need it."
     favicon: str = "/favicon.ico"
     show_share_button: bool = False
-    show_chat_history_button: bool = True
+    show_chat_history_button: bool = False
 
 
 class _ChatHistorySettings(BaseSettings):
